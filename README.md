@@ -1,4 +1,4 @@
-![Texto alternativo de la imagen](./src/assets/Logo-PulpoLine.png)
+![Texto alternativo de la imagen](./assets/Logo-PulpoLine.png)
 
 # 🌦️ Weather API con MongoDB - NestJS Backend
 Esta es una API RESTful construida con NestJS que proporciona datos meteorológicos y gestión de ciudades favoritas, integrada con WeatherAPI.com.
