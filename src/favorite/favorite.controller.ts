@@ -11,7 +11,8 @@ export class FavoriteController {
   @Post()
   async create(@Request() req, @Body() createFavoriteDto: CreateFavoriteDto) {
     const userId = req['user'].userId;
-    return this.favoriteService.create(userId, createFavoriteDto);
+    await this.favoriteService.create(userId, createFavoriteDto);
+    return this.favoriteService.getUniqueFavoriteCities(userId); 
   }
 
   @Delete()
